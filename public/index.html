@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Painel de Ofertas</title>
+  <style>
+    body{ margin:0; font-family:Arial; background:#0b0f14; color:#fff; }
+    header{ padding:20px; border-bottom:1px solid rgba(255,255,255,.15); text-align:center; }
+    .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; padding:20px; }
+    .card{ background:#121a24; border:1px solid rgba(255,255,255,.12); border-radius:16px; padding:16px; }
+    .name{ font-size:22px; font-weight:700; }
+    .price{ font-size:34px; font-weight:900; margin-top:10px; }
+    .badge{ display:inline-block; margin-top:10px; padding:6px 10px; border-radius:999px; background:#ffcc00; color:#111; font-weight:800; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin:0;">SETOR: HORTIFRUTI</h1>
+    <div style="opacity:.8;">Painel de Ofertas (teste no ar)</div>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <div class="name">Banana Prata</div>
+      <div class="price">R$ 4,99/kg</div>
+      <div class="badge">OFERTA</div>
+    </div>
+    <div class="card">
+      <div class="name">Tomate</div>
+      <div class="price">R$ 6,49/kg</div>
+    </div>
+    <div class="card">
+      <div class="name">Maçã</div>
+      <div class="price">R$ 7,99/kg</div>
+      <div class="badge">DESTAQUE</div>
+    </div>
+  </div>
+</body>
+</html>
